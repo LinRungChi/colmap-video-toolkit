@@ -99,8 +99,22 @@ View selection assumes a mostly one-directional sweep or arc. For a full
 
 I built these scripts while preparing phone and camera captures for NeRF and
 3D Gaussian Splatting in my Ph.D. work; this repository is a cleaned-up,
-tested version without any project data. See my
-[portfolio](https://github.com/LinRungChi/portfolio) for related work.
+tested version without any project data. More about my work is on my
+[GitHub profile](https://github.com/LinRungChi).
+
+## References
+
+This toolkit calls [COLMAP](https://colmap.github.io/) as an external program;
+COLMAP itself is not included. If you use the output in research, please cite COLMAP:
+
+- J. L. Schönberger and J.-M. Frahm. *Structure-from-Motion Revisited.* CVPR, 2016.
+- J. L. Schönberger, E. Zheng, M. Pollefeys and J.-M. Frahm. *Pixelwise View Selection for Unstructured Multi-View Stereo.* ECCV, 2016.
+
+Other methods and tools referred to above:
+
+- Sharpness score (variance of the Laplacian): J. L. Pech-Pacheco, G. Cristóbal, J. Chamorro-Martínez and J. Fernández-Valdivia. *Diatom autofocusing in brightfield microscopy: a comparative study.* ICPR, 2000.
+- B. Kerbl, G. Kopanas, T. Leimkühler and G. Drettakis. *3D Gaussian Splatting for Real-Time Radiance Field Rendering.* ACM Transactions on Graphics 42(4), 2023.
+- M. Tancik et al. *Nerfstudio: A Modular Framework for Neural Radiance Field Development.* SIGGRAPH Conference Proceedings, 2023.
 
 ## License
 
