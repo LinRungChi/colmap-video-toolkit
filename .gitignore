@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+# data and outputs
+*.mp4
+*.mov
+*.db
+recordings/
+dataset/
+runs/
+work/
+# local notes
+上傳說明.md
+_to_delete_*
